@@ -1,0 +1,13 @@
+name = "MechGluecode"
+uuid = "3017d99d-ab52-4519-99a2-fa9ddc4637fe"
+authors = ["hustf <hustf@users.noreply.github.com> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]

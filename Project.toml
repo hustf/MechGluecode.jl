@@ -1,7 +1,7 @@
 name = "MechGluecode"
 uuid = "3017d99d-ab52-4519-99a2-fa9ddc4637fe"
 authors = ["hustf <hustf@users.noreply.github.com> and contributors"]
-version = "0.1.2"
+version = "0.1.3"
 
 [deps]
 DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
@@ -9,6 +9,7 @@ MechGlueDiffEqBase = "2532746b-52b5-4539-9431-8bb183ab067f"
 MechGlueInterpolations = "a2cecc3b-2043-4d36-9615-d8139ca22695"
 MechGlueModelingToolkit = "83168081-0482-427f-a8e5-e3977330cfc7"
 MechGluePlots = "03a24088-0a82-4850-846f-2cad5d056ae1"
+MechGlueRecursiveArrayTools = "6aa70590-773c-4af3-96e3-9e675ae1cb83"
 MechanicalUnits = "e6be9192-89dc-11e9-36e6-5dbcb28f419e"
 ModelingToolkit = "961ee093-0014-501f-94e3-6117800e7a78"
 Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"

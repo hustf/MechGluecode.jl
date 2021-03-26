@@ -17,6 +17,7 @@ RecursiveArrayTools = "731186ca-8d62-57ce-b412-fbd966d074cd"
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 
 [compat]
+Requires = "1.1"
 julia = "1"
 
 [extras]

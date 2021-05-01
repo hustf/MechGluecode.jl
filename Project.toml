@@ -1,7 +1,7 @@
 name = "MechGluecode"
 uuid = "3017d99d-ab52-4519-99a2-fa9ddc4637fe"
 authors = ["hustf <hustf@users.noreply.github.com> and contributors"]
-version = "0.1.4"
+version = "0.1.5"
 
 [deps]
 DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
@@ -24,6 +24,8 @@ julia = "1"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+SnoopCompile = "aa65fe97-06da-5843-b5b1-d5d13cad87d2"
+SnoopCompileCore = "e2b509da-e806-4183-be48-004708413034"
 
 [targets]
 test = ["Test"]

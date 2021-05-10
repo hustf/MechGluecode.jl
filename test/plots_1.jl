@@ -1,8 +1,9 @@
 using Test
-import MechanicalUnits: @import_expand
+import MechanicalUnits: @import_expand, ∙, Quantity
 @import_expand(m, s, N) # Takes long if defined late)
 using MechGluecode
 import Plots
+using Plots: plot
 import MechGluecode
 
 @testset "Plots mixed quantity" begin

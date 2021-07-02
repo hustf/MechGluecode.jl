@@ -9,28 +9,21 @@ function __init__()
             @eval using MechGluePlots
         end
         @require Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59" begin
-            #@info "Interpolations => using MechGlueInterpolations"
-            #@eval using MechGlueInterpolations
+            @info "Interpolations => using MechGlueInterpolations"
+            @eval using MechGlueInterpolations
         end
-
         @require ModelingToolkit = "961ee093-0014-501f-94e3-6117800e7a78" begin
             #@info "ModelingToolkit => using MechGlueModelingToolkit"
             #@eval using MechGlueModelingToolkit
         end
-
         @require RecursiveArrayTools = "731186ca-8d62-57ce-b412-fbd966d074cd" begin
-            @info "RecursiveArrayTools => using MechGlueRecursiveArrayTools"
+           # @info "RecursiveArrayTools => using MechGlueRecursiveArrayTools"
            # @eval using MechGlueDiffEqBase
            #  @info "RecursiveArrayTools => using MechGlueRecursiveArrayTools"
            #  @eval using MechGlueRecursiveArrayTools
         end
-        @require DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa" begin
-            @info "DifferentialEquations => using MechGlueDiffEqBase"
-          #  @eval import MechanicalUnits: Unitfu, @import_expand
-          #  @eval import Unitfu: AbstractQuantity
-          #  @eval import DifferentialEquations
-          #  @eval import DifferentialEquations: DiffEqBase
-          #  @eval import SciMLBase
+        @require DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e" begin
+            @info "DiffEqBase => using MechGlueDiffEqBase"
             @eval using MechGlueDiffEqBase
         end
     end

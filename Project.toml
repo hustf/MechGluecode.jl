@@ -1,7 +1,7 @@
 name = "MechGluecode"
 uuid = "3017d99d-ab52-4519-99a2-fa9ddc4637fe"
 authors = ["hustf <hustf@users.noreply.github.com> and contributors"]
-version = "0.1.52"
+version = "0.1.53"
 
 [deps]
 DiffEqBase = "2b5f629d-d688-5b77-993f-72d75c75574e"
